@@ -1,0 +1,35 @@
+CS 161 Introduction to Programming and Problem-solving
+Credit Hours:	4
+Course Coordinator:	Karla Fant
+Course Description:	Introduction to fundamental concepts of computer science. Problem solving, algorithm and program design, data types, loops, control structures, subprograms, and arrays. Learn to write programs in a high level programming language. Surveys current social and ethical aspects of computer science.
+Prerequisites:	MTH 111
+Goals:	To introduce students to the fundamental concepts of computing. Problem solving, the design of algorithms for solutions, and the translation of tested algorithms into the grammar of a high-level computer language are emphasized. Students are encouraged to develop a consistent programming style and a systematic method of internal program documentation.
+
+This course introduces the software life cycle along with the goals of systems design; reliable, modifiable, understandable, and efficient program development is emphasized. Computer ethics are introduced with an analysis of the nature and social impact of computer technology; this is emphasized using example cases and integrating ethical issues into at least one project and exams. Students will be introduced to the UNIX environment for subsequent CS courses.
+Textbooks:	Varies by instructor.
+References:	Optional: Weekly course notes and class slides.
+Major Topics:	
+Solving Problems with Computers (8 hrs)
+Algorithms– What they are and how to write them (4 hours)
+Learn how to login and enter programs (2 hrs)
+Be introduced to high level programming languages (4 hours)
+Understand data types, variables, conditionals, loops, functions, and arrays (16 hours)
+Survey of social and ethical aspects (2 hrs)
+Learn about software design methodologies (4 hours)
+Laboratory Exercises:	6 homework assignments which consider (a) algorithms, (b) ethics, (c) style, and (d) programming.
+ 
+
+CAC Category Credits	Core	Advanced
+Data Structures
+Algorithms	1
+Software Design	1
+Computer Architecture
+Programming Languages	2
+ 
+
+Oral and Written Communications:	Every student is required to submit at least 6 written reports (not including exams, tests, quizzes, or commented programs) of typically 1-2 pages.
+Social and Ethical Issues:	Computer ethics are introduced with an analysis of the nature and social impact of computer technology; this is emphasized using example cases and integrating ethical issues into at least one project and exams. Two lecture hours are dedicated to social and ethical implications of computing. 5 of the homework assignments include computer ethics and social issues with one applying ethical issues to the project itself.
+Theoretical Content:	Students are introduced to the basics of computer architecture, algorithms, and fundamental Programming syntax in the language selected by the instructor.
+Problem Analysis:	Students in CS161 become familiar with introductory programming concepts. Through this process, students are introduced to the concept of program design and algorithm development. This is stressed first early on in the term to introduce them to the concepts of design, and then again later in the term to reinforce its importance.
+Solution Design:	Students gain experience by writing algorithms and designing software to solve the programming projects assigned in class.
+

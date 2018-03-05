@@ -1,15 +1,16 @@
 Programming outcomes (CS161–CS162)
 ----------------------------------
 
-The following outcomes are existentially quantified over languages and
-tool sets (compiler, debugger, editor, etc); that is, any combination of
-language and tool set is acceptable for achieving the ASOT-CS, although
-a school accepting it for transfer may require students to demonstrate
-the same level of proficiency in a particular language or using a
-particular tool set.
+The following outcomes are existentially quantified over language and
+tools; that is, if a student demonstrates this level of proficiency
+in any language using any set of tools, a school may accept that for
+awarding the ASOT-CS.  However, a school accepting the ASOT-CS for
+transfer may require a student to demonstrate that proficiency in a
+particular language or using particular tools.
 
-### Write and execute a computer program.
+### Write and execute a program.
 
+-   Use tools such as compiler, interpreter, text editor, debugger, version control, filesystem, build system, profiler, and IDE.
 -   Write and execute some trivial program, such as hello world, from
     scratch by memory. *there is some question of what trivial means and
     at what level it is memorized, i.e. syntactic vs being able to
@@ -17,10 +18,20 @@ particular tool set.
 -   Decompose a program into modules at a source file level, using
     separate compilation. *separate compilation is a C term, but this should
     really include other forms of file-level inclusion/modularity*
--   Use toolchain components such as compiler, interpreter, text editor,
-    command line, or IDE.
--   Recognize important pieces of toolchain/documentation for quickly
+-   Recognize important tools and language features for quickly
     learning a new language or translating.
+
+### Discuss computing problems among humans.
+
+-   Use language reference documentation, tutorials, fora, IRC, mailing lists, user groups, conferences, etc.
+-   Value consistent programming style.
+-   Consistently use a personal programming style.
+-   Adapt programming style to a group project.
+-   Explain requirements, design decisions, and coding decisions, using
+    source code (variable names, conventions, etc.), programming comments,
+    documentation, and in conversation with people.
+-   Read other people's code and get meaning from it.
+-   Recognize important pieces of documentation for quickly learning a new language or translating.
 
 ### Justify trust in a program's correctness.
 
@@ -51,24 +62,16 @@ particular tool set.
     -   Detect and handle exceptional conditions within a program. *by
         return type, exceptions, etc*
 -   Modify a program's source to add or subtract features, modify it to
-    work in another environment, etc. *maintenance*
+    work in another environment, etc. *maintenance* *does this belong in justification?*
 -   Justify the way a program is decomposed, by analyzing an existing
     set of modules to describe its benefits and drawbacks, by arguing for
     why a decomposition was designed the way it was, and by improving a
     decomposition when warranted. *describe some strategies, such as separation
     of concerns, Parnas, tussle, etc*
 
-### Communicate programming challenges among humans using source code and documentation.
+*formal reasoning seems to be missing*
 
--   Use language reference documentation and tutorials.
--   Value consistent programming style.
--   Consistently use a personal programming style.
--   Be able to adapt programming style to a group project.
--   Explain requirements, design decisions, and coding decisions, in
-    internal comments, in external documentation, and in conversation
-    with people.
-
-### Represent and manipulate information related to a real-world problem domain in the context of a computer program.
+### Represent a real-world problem domain within a program.
 
 -   Distinguish a value, a location that stores a value, and an
     identifier that names a location or value.
@@ -101,7 +104,7 @@ particular tool set.
 -   Discuss memory as a resource.
 -   Assign appropriate scope and lifetime to each variable in a program.
 
-### Connect a program to its environment, such that information can be input and output.
+### Communicate input and output with a program's environment.
 
 -   Access arguments and options provided when a program is run. *i.e.
     command-line arguments*

@@ -1,0 +1,48 @@
+CS 201 Computer Systems Programming
+Credit Hours:	4
+Course Coordinator:	Wu-chang Feng
+Course Description:	Introduction to computer systems from a software perspective. Topics include: Basic machine organization, System programming using C and assembly language, Introduction to system programming tools (gcc, makefile, gdb), Data representation (bits & bytes, characters, integers, floating point numbers, Implementation of control flow, procedure calls, and complex data types at machine level. Linking and loading, Exceptions and interrupts, Process control and signals, System calls, File I/O, Timing and improving program performance, Introducton to memory hierachy, dynamic memory allocation techniques. Prerequisite: CS 162.
+Prerequisites:	CS 162.
+Goals:	Introduce computer systems from a software perspective. Teach C and assembly language programming and reading skills. Teach basic systems programming skills and tools. Show how to measure and improve program performance based on an understanding of key aspects of machine architecture.
+Upon the successful completion of this course students will be able to:
+
+Describe basic computer system organization including the operating system (processes, files, virtual memory) and the underlying hardware (CPU, registers, memory hierarchy).
+Describe the compilation system (preprocessing, assembling, compiling, and linking) and the function of object/executable files and shared libraries, as well as how basic system utilities such as debuggers and Makefiles work.
+Write C programs to illustrate basic systems programming concepts, including file I/O, system calls, memory management, exception handling and process management.
+Do arithmetic in hexadecimal, decimal, octal, and binary notation, and convert among these notations.
+Explain how data types such as integers, characters, floating point numbers, arrays, pointers, and structures are represented.
+Describe the basic instruction set architecture for the IA32 family (or similar machine), including the arithmetic/logic instructions, registers, memory model and addressing, and control instructions.
+Explain how high-level programming constructs such as loops and stack-based function calls are implemented in underlying machine code.
+Explain how exceptions, traps, and context switches occur and how they are handled at the machine level.
+Explain the performance impact of hardware features such as pipelining, and architecture principles such as memory locality.
+Use profiling and timing facilities to identify performance bottlenecks in C programs.
+Textbooks:	Computer Systems: A Programmer's Perspective,Bryant and O'Hallaron, Prentice Hall, 2002.
+The C Programming Language, 2nd ed.,Kernighan and Ritchie, Prentice Hall, 1998.
+References:	None.
+Major Topics:	
+Exceptions and Interrupts
+Processes and Process Control
+File I/O and System Calls
+Performance Measurement
+Performance Improvement
+Memory Hierarchy
+Memory Allocation
+Laboratory Exercises:	Programming system calls (4 weeks)
+Measuring program performance (2 weeks)
+Improving program performance (2 weeks)
+Program memory allocator (2 weeks)
+ 
+
+CAC Category Credits	Core	Advanced
+Data Structures
+Algorithms
+Software Design	0.5
+Computer Architecture	2.5
+Programming Languages
+ 
+
+Oral and Written Communications:	None.
+Social and Ethical Issues:	None.
+Theoretical Content:	None.
+Problem Analysis:	Lab and homework problems in programming and improving performance.
+Solution Design:	Lab and homework problems in programming and improving performance.

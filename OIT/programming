@@ -1,0 +1,37 @@
+CST 116: C++ Programming I
+Description
+Computer concepts and problem solving methods using C++ programming language. Topics include: algorithms, simple data types, conditional and iterative structures, function definition, structured programming and documentation. Cannot be taken for graduation credit if student has completed MIS 116.
+
+Prerequisite(s)  
+None
+
+Corequisite(s)  
+MATH111 OR MATH112 OR MATH251 OR MATH252 OR MATH253N OR MATH254 OR MATH254N OR MATH253 OR MATH101
+Associated Degree Programs
+Electrical Engineering, Embedded Systems Engineering Technology, Software Engineering Technology
+
+
+CST 126: C++ Programming II
+Description
+Solving complex problems using advanced features of the C++ language. Topics include function usage, pointer data type, dynamic memory allocation, string manipulation, and structure and union data types. Emphasis is on structured program design techniques. Cannot be taken for graduation credit if student has completed MIS 126.
+
+Prerequisite(s)  
+CST116 (C or better)
+Corequisite(s)  
+None
+
+Associated Degree Programs
+Embedded Systems Engineering Technology, Software Engineering Technology
+
+
+CST 136: OOP with C++
+Description
+A study of object oriented programming with C++. Beginning and intermediate concepts are covered including classes, objects, member functions, overloading, inheritance, polymorphism, templates, and virtual functions. This course prepares students with a strong C background for upper division coursework using C++. Cannot be taken for graduation credit if student has completed MIS 136.
+
+Prerequisite(s)  
+CST126 (C or better)
+Corequisite(s)  
+None
+
+Associated Degree Programs
+Embedded Systems Engineering Technology, Software Engineering Technology

@@ -1,0 +1,69 @@
+CS 202 Programming Systems
+Credit Hours:	4
+Course Coordinator:	Karla Fant
+Course Description:	Students will become familiar with the language and operating system environment used in most upper division courses in the Computer Science major curriculum. Use of the file system, operating- system calls, and shell-level programming; low-level debugging of high-level programs. Programming exercises will include applications from data structures (e.g. B-trees) and memory management techniques.
+Prerequisites:	CS 163.
+Goals:	The primary goal in CS202 is to prepare students for programming in the upper division 3xx and 4xx level classes. To achieve this goal, CS202 focuses on three areas: object oriented programming, advanced C++, and an overview of how Java relates to what we have learned in C++.
+
+The majority of the term will be spent introducing students to object-oriented programming while learning advanced C++ syntax. Students will understand the difference between procedural abstraction and object oriented solutions. Students will spend the term designing and programming with inheritance hierarchies, with the goal of solving problems efficiently: producing high quality, robust, maintainable as well as efficient object oriented solutions. This will provide students with the chance to experience object oriented design and programming. Programming assignments will focus on advanced data structures while at the same time accomplishing these other goals. Students will learn about C++'s function overloading, operator overloading, copy constructors, and be introduced to inheritance.
+
+Java skills developed include writing two programs using advanced data structures in Java with strict requirements to follow OOP guidelines - all data members private, no friendly access, and complete implementation of functions required to handle issues of deep versus shallow copies and compares. Students learn the relationship between the two languages and the similarity of Java's references to pointers.
+
+Then, the rest of the term compares Java to C++, where we will work through example projects in both languages.
+Textbooks:	Thinking in Java, 4th edEckel
+C++ Primer Plus, 5th edStephen Prata.
+References:	Optional:Object Oriented Programming using C++,Pohl.
+Optional: Weekly Lecture Notes and Course Slides.
+On Reserve at the Library: Information on C++, UNIX, and Tools.
+Major Topics:	
+Object Oriented Programming Concepts (2 hours)
+Inheritance, polymorphism, Measuring the quality of design (2 hours)
+Single versus Multiple Inheritance, Virtual Inheritance (4 hours)
+Dynamic Binding, RTTI, User Defined Conversions (4 hours)
+Operator Overloading, Copy Constructors, Rvalues vs Lvalues, Constant member functions and constand objects (4 hours)
+Exception handling (2 hours)
+Friends, Nesting, static Members (1 hour)
+Templates (1 hour)
+Comparing Languages used in the Upper Division Classes (2 hours)
+Java in comparison to C++ (4 hours)
+OOP Solutions and Design Alternatives (4 hours)
+Laboratory Exercises:	Programs/Individual Projects:
+Course requirements consist of five programming assignments in C++ and Java.
+20% of each program's grade is based on the program style comments, and documentation provided with the program.
+Each programming assignment must include the following writeups:
+a minimum 600 word written discussion of the major design consideration encountered when solving the specified problem. In the design considerations, discuss what the main design considerations are, why they are the main design considerations, how they are solved, and why the approach taken is valid. Think in terms of analyzing your solution! This means discussing the efficiency of the approach as well as the efficiency of the resulting code.
+a minimum 400 word written discussion of how debuggers (gdb, xxgdb, ddd, etc.) assisted in the development. This write up must describe experiences with the debugger, how it assisted code development, or how it could be used to enhance the programming experience.
+
+
+Term Paper
+Each student will be required to submit a typed term paper. The paper must explore how well your programs have met our objectives to become object oriented programmers! Discuss how the designs meet the criteria set out for OOP, and how they can be improved. The paper must be a minimum length of 4 pages and a maximum of 7 pages (double spaced, 12 point font). If you have tables and sample code, they MUST be attached as exhibits and should not be part of the 4-7 page count. Your term paper should be done using Word or plain text and emailed as an attached file to karlafgr@cs.pdx.edu
+
+
+On-line Discussions
+Desire 2 Learn will be used in this class to facilitate online discussions used to help students become familiar and master the object oriented programming techniques. We will use this forum to critically analyze designs. Students are expected to login to Desire 2 Learn every week and participate! Your participation is graded; it must be (a) meaningful, (b) instigate other discussion, (c) and be related to object oriented programming. Discussions will not stay active for more than 2 weeks - to assist in directing you to the most current discussions. For those of you who have used Blackboard, you will find that this is going to be treated differently than you are used to. Also, as you participate, simply providing the entire solution and/or code will not promote a meaningful discussion! Also, logging in right before the discussion question is closed for the first time will not instigate other discussion and will be graded accordingly.
+ 
+
+CAC Category Credits	Core	Advanced
+Data Structures
+Algorithms
+Software Design	1.0
+Computer Architecture
+Programming Languages	3.0
+ 
+
+Oral and Written Communications:	Every student is required to submit at least __6__ written reports (not including exams, tests, quizzes, or commented programs) of typically _2 pages with each program (5 programs), and 4-7 pages for a term paper. Material is graded for grammar, spelling, style, and so forth, as well as for technical content, completeness, and accuracy.
+20% of each program's grade is based on a written discussion of the UNIX debuggers used, and major design consideration encountered when solving the specified problem. These must be one page each, and must be submitted with each programming assignment. They are graded for grammar, spelling, style, as well as technical. Each assignment must have an accompanying debugger write-up. These writeups must discuss the benefits and tradeoffs when selecting a particular tool.
+
+In addition, each student will be required to submit a 4-7 page, typed, term paper on Object Oriented Programming, due at the final. All tables, code, and examples must be placed as an attachment to this report (and not be included in the 4-7 page count). The paper should introduce the reader to these tools, discuss their usefulness, and discuss features, benefits, and drawbacks.
+
+ 
+
+Source Code Control (eg., sccs, rcs, xxgdb)
+Debuggers (eg., dbx, gdb)
+Interactive Programming (eg., Tcl/Tk)
+Shell Programming: (eg., perl, csh)
+Social and Ethical Issues:	None.
+Theoretical Content:	None.
+Problem Analysis:	See Solution Design Statement.
+Solution Design:	CS202 focuses on issues that students will encounter in real world programming projects. Advanced concepts not encountered before are emphasized, such as alignment issues, deep copying, garbage collection, and implicit operations. In class discussions focus on concepts that are not typically covered by textbooks at this level.
+Students are required to take open-ended specifications and apply their C++ knowledge to design new data types, as completely as possible. This requires that students make their own judgements on the type of functionality required to fully transform an abstraction into a data type that performs in the same manner as the fundamental data types. This requires significant analysis and design: students are faced with questions such as, can the client create instances of this type that are constant, will they be able to use the standard operators in expected ways, will all dynamic memory be allocated, copied, deallocated consistently with the object's lifetime, etc.

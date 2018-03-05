@@ -1,0 +1,42 @@
+CS 250 Discrete Structures I
+Credit Hours:	4
+Course Coordinator:	Bart Massey
+Course Description:	Introduces discrete structures and techniques for computing. Sets. Graphs and trees. Functions: properties, recursive definitions, solving recurrences. Relations: properties, equivalence, partial order. Proof techniques, inductive proof. Counting techniques and discrete probability.
+Prerequisites:	MTH 251
+Goals:	CS 250 is the first term of the two term sequence CS 250-251. The main goal of the sequence is that students obtain those skills in discrete mathematics and logic that are used in the study and practice of computer science.
+Upon the successful completion of this course students will be able to:
+
+Describe basic properties of sets, bags, tuples, relations, graphs, trees, and functions.
+Perform traversals of graphs and trees; construct simple functions by composition of known functions; determine whether simple functions are injective, surjective, or bijective; and classify simple functions by rate of growth.
+Describe the concepts of countable and uncountable sets, and apply the diagonalization method to construct elements that are not in certain countable sets.
+Construct inductive definitions for sets, construct grammars for languages (sets of strings), and construct recursive definitions for functions and procedures.
+Determine whether a binary relation is reflexive, symmetric, or transitive and construct closures with respect to these properties.
+Construct a topological sort of a partially ordered set and determine whether a partially ordered set is well-founded.
+Use elementary counting techniques to count simple finite structures that are either ordered or unordered, to count the worst case number of comparisons and, with discrete probability, to count the average number of comparisons for simple decision trees.
+Find closed form solutions for simple recurrences using the techniques of substitution, cancellation, and generating functions.
+Demonstrate standard proof techniques and the technique of inductive proof by writing short informal proofs about simple properties of numbers, sets, and ordered structures.
+
+Textbooks:	Discrete Structures, Logic, and Computability, Third Edition,by James L. Hein. Jones and Bartlett, 2009.
+References:
+Major Topics:	
+Sets, bags, ordered structures (tuples, lists, strings, languages, relations), graphs, and trees.
+Functions: constructions, properties, and countability.
+Construction techniques for inductively defined sets, recursive functions and procedures, and grammars.
+Relational structures: properties, equivalence, order, and inductive proof techniques.
+Analysis tools: finding closed forms, counting and discrete probablility, solving recurrences, comparing growth rates.
+Laboratory Exercises:
+ 
+
+CAC Category Credits	Core	Advanced
+Data Structures
+Algorithms	0.3
+Software Design
+Computer Architecture
+Programming Languages
+ 
+
+Oral and Written Communications:	Oral communication is in the form of class interaction. Written communication is in the form of homework assignments.
+Social and Ethical Issues:	None.
+Theoretical Content:	The entire course is theoretical material (discrete mathematics).
+Problem Analysis:	The course is devoted to problem solving techniques of discrete mathematics. The exercises and tests require problem analysis to find out which tools of discrete mathematics are needed to solve a problem.
+Solution Design:	The course is devoted to problem solving techniques of discrete mathematics. The exercises and tests require students to solve problems by applying the tools of discrete mathematics.

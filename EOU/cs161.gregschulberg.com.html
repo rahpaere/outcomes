@@ -1,0 +1,368 @@
+
+<!-- saved from url=(0049)http://cs161.gregschulberg.com/?pagename=syllabus -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<style type="text/css">
+
+body {
+	background: rgb(61,110,206); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(61,110,206,1) 0%, rgba(123,187,206,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(61,110,206,1)), color-stop(100%,rgba(123,187,206,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(61,110,206,1) 0%,rgba(123,187,206,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(61,110,206,1) 0%,rgba(123,187,206,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(61,110,206,1) 0%,rgba(123,187,206,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(61,110,206,1) 0%,rgba(123,187,206,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3d6ece', endColorstr='#7bbbce',GradientType=0 ); /* IE6-9 */
+	font-family: courier;
+	
+	
+}
+
+div#header {
+	width: 100%;
+	height: 80px;
+	background: #2c539e;
+	opacity: 1;
+	text-align: center;
+	color: #F1DA36;
+	font-size: 40px;
+	padding-top: 20px;
+	border: 1px dashed #111;
+}
+
+div#header a, div#header a:hover, div#header a:visited {
+	text-decoration: none;
+	color: #F1DA36;
+}
+
+div#container {
+	margin-top: 10px;
+	width: 100%;
+}
+
+div#menu {
+	float: left;
+	width: 190px;
+	background: rgba(61,110,206,1);
+	background: #2c539e;
+	color: #eee;
+	gmargin-right: 100px;
+	min-height: 600px;
+	padding: 10px;
+	border: 1px dashed #111;
+}
+
+div#content {
+	gwidth: 100%-250px;
+	background: rgba(123,187,206,1);
+	color: #111;
+	margin-left: 225px;
+	padding: 10px;
+	border: 1px dashed #111;
+	min-height: 600px;
+}
+
+a { text-decoration: none; }
+a, a:visited { color: #fff }
+a:hover {color: #222;}
+h1,h2,h3 {text-align: center}
+
+pre {
+	background: #111;
+	color: #eee;
+	width: 700px;
+	padding: 10px;
+	border: 1px solid black;
+}
+
+
+/*div#menu a, div#menu a:visited {color: #FAEA79}
+div#menu a:hover {color: #eee}*/
+</style>
+<script src="./cs161.gregschulberg.com_files/jquery.min.js"></script>
+</head>
+<body>
+
+<div id="header"><a href="http://cs161.gregschulberg.com/">
+	CS161: Foundations of Computer Science I
+</a></div>
+
+<div id="container">
+	<div id="menu">
+		<style type="text/css">
+	ul { 
+		list-style-type: none; margin: 0px;
+		-webkit-padding-start: 0px;
+	}
+	li {margin: 10px 0px; color: #000;}
+</style>
+
+<ul>
+	<li><a href="http://cs161.gregschulberg.com/">Home</a></li>
+	<li><a href="http://cs161.gregschulberg.com/?pagename=python">Getting Python</a></li>
+	<li><a href="http://cs161.gregschulberg.com/?pagename=syllabus">Course Syllabus</a></li>
+	<li><a href="http://cs161.gregschulberg.com/?pagename=practice">Python practice and puzzles</a></li>
+	
+	<li><u>Labs</u>
+		<ul>
+			<li><a href="http://cs161.gregschulberg.com/?pagename=lab1">Lab 1</a></li>
+			<li><a href="http://cs161.gregschulberg.com/?pagename=lab2">Lab 2</a></li>
+			<li><a href="http://cs161.gregschulberg.com/?pagename=lab3">Lab 3</a></li>
+			<li><a href="http://cs161.gregschulberg.com/?pagename=lab4">Lab 4</a></li>
+		</ul>
+	</li>
+	<li><u>Programs</u>
+		<ul>
+			<li><a href="http://cs161.gregschulberg.com/?pagename=program1">Program 1</a></li>
+			<li><a href="http://cs161.gregschulberg.com/?pagename=program2">Program 2</a></li>
+			<li><a href="http://cs161.gregschulberg.com/?pagename=program3">Program 3</a></li>
+			<li><a href="http://cs161.gregschulberg.com/?pagename=program4">Program 4</a></li>
+			<li><a href="http://cs161.gregschulberg.com/?pagename=program5">Program 5</a></li>
+		</ul>
+	</li>
+
+	<li><u>Exercises</u>
+		<ul>
+		</ul>
+	</li>
+	<li><u>Lecture Notes</u>
+		<ul>
+		</ul>
+	</li>
+</ul>
+	</div>
+	<div id="content">
+				
+		<style type="text/css">
+div#syllabus { font-family: "Arial"; font-size: 11pt}
+div.title {font-size: 16px; text-align:center}
+div.title p {margin: 0px;}
+table { margin: 20px; border: none}
+table.grading td {padding-right: 20px}
+table.schedule {border: 1px solid #222; width: 800px; border-collapse: collapse}
+table.schedule td,th {border: 1px solid #222; padding: 5px; margin: 0px}
+</style>
+<div id="syllabus">
+<div class="title">
+<p style="font-size:18pt">CS 161: Foundations of Computer Science I</p>
+<p style="font-size:16pt">Course Syllabus</p>
+<p style="font-size:12pt">Fall 2014 | M,W 6pm-7:40pm at Cayuse Technologies Training Room 1</p>
+</div>
+<hr>
+
+<p><span style="font-weight: bold">Professor:</span> Greg Schulberg</p>
+<p>
+Cayuse Technologies<br>
+email: <a href="mailto:gschulbe@eou.edu">gschulbe@eou.edu</a><br>
+<a href="http://cs161.gregschulberg.com/">cs161.gregschulberg.com</a>
+</p>
+
+<p><span style="font-weight: bold">Office hours: </span>By appointment</p>
+
+<p><span style="font-weight: bold">Catalog Description</span></p>
+<p>
+Introduces basic data representation, branching and iteration, memory management, computer architecture, and the analysis and design of problem solutions.
+</p>
+
+<p><span style="font-weight: bold">About this Course</span></p>
+<p>
+This class introduces students to the use of computers as problem solving tools.
+</p>
+
+<p><span style="font-weight: bold">Outcomes</span></p>
+<p>
+Students enrolled in this class will learn basic conceptual knowledge necessary to develop computer programs, and how to use fundamental control structures in a representative programming language. When they have completed this course students will be able to:
+</p><ol>
+<li>describe the conceptual organization of a computer;</li>
+<li>describe the use of literal and variable data;</li>
+<li>precisely define problem solutions in English;</li>
+<li>design computer algorithms using fundamental control structures (sequence, iteration, and selection);</li>
+<li>write, and debug programs to implement algorithms;</li>
+<li>design and write modular programs using functions; and</li>
+<li>design programs that use list data.</li>
+</ol>
+
+<p><span style="font-weight: bold">Prerequisites:</span> None</p>
+<p><span style="font-weight: bold">Textbooks and Materials</span></p>
+<p>
+	Horstmann, C. &amp; Necaise,R. (2014). <i>Python for Everyone.</i> Wiley. (ISBN 
+	9781119916192)<br>
+	<b>Note:</b> There is a special edition of the text prepared for the on-campus course and available at 
+	the EOU bookstore at a reduced price. The full text is available online in printed or electronic form.
+	It can also be ordered in electronic form directly from Wiley using their Bookshelf e-reader (software is 
+	available for most devices). <a href="http://www.wiley.com/WileyCDA/WileyTitle/productCd-EHEP002658.html">
+		http://www.wiley.com/WileyCDA/WileyTitle/productCd-EHEP002658.html</a>
+</p>
+
+<p><span style="font-weight: bold">Means of Assessment</span></p>
+<p>
+Quizzes and two exams will be used to assess student mastery of conceptual material (outcomes 1, 2, 3 &amp; 6), and exercises and projects will be used to assess student ability to apply concepts (outcomes 4, 5, 6, &amp; 7). Projects will be a series of increasingly complex programs requiring use of concepts introduced in class.</p>
+
+<p><span style="font-weight: bold">Course Activities</span></p>
+<p>
+This course includes regularly scheduled class meetings, reading assignments, written exercises, lab sessions, programming assignments, quizzes, and two exams. Class meetings will be spent in lectures and class discussions of topics and approaches to solving problems. One hour per week will used as a lab with guided activities.</p>
+<p>
+Students will complete assignments and reading outside class. The programming lab will be available for students to do programming work, and the instructor will be available for consultation during office hours and by appointment. Please allow yourself time to complete work on time—a common rule of thumb for university classes is allow two to three hours of time outside class each week for each credit hour the course carries.</p>
+
+<div class="title" style="font-size: 16pt">Policies</div>
+<p>
+<b>Attendance</b>, while not a factor in grade computation, is nevertheless strongly encouraged. Students who miss class are responsible for all lecture notes, assignments, and assignment revisions distributed in the missed session. Chronic absences will very likely be reflected in poor performance on quizzes, exams and programming assignments.</p>
+
+<p>
+<b>Assignments.</b> When each exercise or project is assigned, the due date will be posted on the class web site. Ample time will be allowed for completion (provided you don't procrastinate too much). Begin working on solutions to programming problems as soon as you can.</p>
+<p>
+Save all returned work. Keep a back-up copy of any work you turn in</p>
+
+<p>
+<b>Late Assignments</b>. Any work turned in after the due date and time may incur a penalty for each class day (or portion thereof) it is late. Within two or three class days of the due date for programming I will post a sample solution. Programs turned in after this time will receive no credit. You should at least scan Assigned Readings in advance of the material being covered in lecture. Re-read assignments after the material has been covered in class.</p>
+
+<p>
+On Wednesdays one 50 minute block of the session will be devoted to lab work. This session will be held in the same classroom as the class sessions. Each week there will be a lab activity for you to complete. Thoughtful completion of these assignments will clarify concepts covered in lecture, help you succeed on programming assignments, and give you an idea of what some quiz and exam questions will be.
+</p>
+
+<p>
+<b>Programming</b> is a critical skill for computer science students and increasingly important in many other disciplines including multimedia development, computer graphics, mathematics, and the sciences. Learning to program well is time consuming and requires great attention to detail. As we discuss conceptual material in class you should anticipate the sorts of problems you may need to solve for the next program and begin thinking about them. When an assignment is made, you should immediately begin working on the design for the solution.
+</p>
+<p>
+Since one cannot memorize the solution to every problem, concentrate on understanding how your solution works and how you arrived at it; the ability to solve new problems is the most important skill a programmer can develop. Good programming style and use of documentation are also important, and consequently will be included in consideration for grading. Appropriate documentation and style will be gradually introduced throughout the course.
+</p>
+<p>
+<b>Pop quizzes</b> will provide feedback to let you determine if you are assimilating enough detail in course topics, and may cover lectures, discussion and assigned reading. One in four quiz scores may be dropped (i.e., if we have four quizzes the lowest won't count; if we have 8, the lowest two won't count.) Quizzes may be made up only if I deem the documented excuse valid.
+</p>
+<p>
+<b>Academic Misconduct</b>
+Eastern Oregon University places a high value upon the integrity of its student scholars. Any student found guilty of an act of academic misconduct (including, but not limited to, cheating, plagiarism, or theft of an examination or supplies) may be subject to having his or her grade reduced in the course in question, being placed on probation or suspended from the university, or being expelled from the university - or a combination of these. Please see the relevant section of the student handbook online at: <a href="http://www.eou.edu/saffairs/handbook/honest.html">www.eou.edu/saffairs/handbook/honest.html</a>.
+</p>
+
+<p><b>Plagiarism</b> is copying, in part or as a whole, the work of another person and submitting it as your own, and is expressly forbidden by the University's Academic Honesty Code. This includes using someone else's program as a template and revising identifiers and documentation to create your program. I may ask a student at any time to explain how their program works. Solutions that students cannot explain may be subject to severe penalties (see above!), as will any solutions that have clearly been copied from other sources.</p>
+
+<p><b>Classroom Decorum.</b><br>Please try to get to class on time. Arriving late is a distraction, and not courteous to other students. Turn off cell phones and pagers while in class.</p>
+<p>The course meets in one of the training rooms at Cayuse Technologies with a computer at every work station. The computers will be used <b>only</b> during the scheduled lab times. Computers may not be used at any other time and the screens should be face down on top of the computer case during lecture</p>
+
+<p>
+<b>Students with Disabilities</b><br>
+If you have a documented disability or suspect that you have a learning problem and need reasonable accommodations, please contact the EOU Disability Services Program at Loso Hall 234 (telephone 962-3081) before the end of the second week of classes.</p>
+
+<p><b>Grading</b><br>
+Your final grade for this course will depend on your completion of the assigned exercises and programming assignments, quizzes, and exams. Note that the weight given each program will depend on the time it requires. Credit is distributed as follows:
+
+<table class="grading">
+<tbody><tr><td>Exercises:</td><td>5 %</td></tr>
+<tr><td>Programming Assignments</td><td>35 %</td></tr>
+<tr><td>Quizzes</td><td>20 %</td></tr>
+<tr><td>Midterm Exam</td><td>15 %</td></tr>
+<tr><td>Final Exam</td><td>25 %</td></tr>
+</tbody></table>
+
+Grade cutoffs will be no higher than 92 for A, 84 for B, 75 for C and 65 for D, but may be lower if analysis of the distribution of scores indicates they should be.</p>
+
+<div class="title" style="font-size: 16pt">Course Schedule (*Tentative)</div>
+
+<table class="schedule">
+	<tbody><tr>
+		<th style="width: 150px">Week</th>
+		<th>Main Topics</th>
+		<th style="width: 150px">Reading</th>
+	</tr>
+	<tr>
+		<td>1 (Sep 29)</td>
+		<td>
+			Course introduction; Review of basic computer hardware and types of computer languages;<br>
+			Using the programming lab
+		</td>
+		<td>1.1 - 1.6</td>
+	</tr>
+	<tr>
+		<td>2 (Oct 6)</td>
+		<td>
+			Literal and variable data; Fundamental statements<br>
+			Designing programs; pseudo code and flow charts;<br>
+			The String data type (introduction)<br>
+			First program due
+		</td>
+		<td>2.1 - 2.2.3<br>1.7<br>2.4.1 - 2.4.3</td>
+	</tr>
+	<tr>
+		<td>3 (Oct 13)</td>
+		<td>
+			Counter-controlled iteration;<br>
+			Numeric data types, numeric computation;
+		</td>
+		<td>2.5; 4.6</td>
+	</tr>
+	<tr>
+		<td>4 (Oct 21)</td>
+		<td>
+			Control structures: Selection<br>
+			Second program due
+		</td>
+		<td>3.1 - 3.6</td>
+	</tr>
+	<tr>
+		<td>5 (Oct 20)</td>
+		<td>
+			Control structures: sentinel controlled iteration			
+		</td>
+		<td>4.1 - 4.5</td>
+	</tr>
+	<tr>
+		<td>6 (Nov 3)</td>
+		<td>
+			Midterm exam<br>
+			Modular programming and top-down design<br>
+			Third program due
+		</td>
+		<td>Reread 1.7<br>2.3; 3.6</td>
+	</tr>
+	<tr>
+		<td>7 (Nov 10)</td>
+		<td>
+			Subroutines (functions); Parameter passing
+		</td>
+		<td>5.1 - 5.8</td>
+	</tr>
+	<tr>
+		<td>8 (Nov 17)</td>
+		<td>
+			Lists (arrays) and Strings<br>
+			Fourth program due	
+		</td>
+		<td>6.1 - 6.4<br>2.4 (all)</td>
+	</tr>
+	<tr>
+		<td>9 (Nov 24)</td>
+		<td>
+			Manipulating data in lists<br>
+			Thanksgiving Break Wed-Fri
+		</td>
+		<td>8.4</td>
+	</tr>
+	<tr>
+		<td>10 (Dec 1)</td>
+		<td>
+			Special Topics<br>
+			Review for Exam<br>
+			Last program due
+		</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>11 (Dec 8)</td>
+		<td>
+			Final Exam (Date TBA)
+		</td>
+		<td></td>
+	</tr>
+</tbody></table>
+
+
+</div>
+		<hr>
+		<a href="http://cs161.gregschulberg.com/printpage.php?pagename=syllabus">Print this page</a>
+	</div>
+</div>
+
+
+
+
+
+</body></html>

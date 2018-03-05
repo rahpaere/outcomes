@@ -1,0 +1,42 @@
+CS 251 Discrete Structures II
+Credit Hours:	4
+Course Coordinator:	Bart Massey
+Course Description:	Continuation of CS 250. Logic: propositional calculus, first-order predicate calculus. Formal reasoning: natural deduction, resolution. Applications to program correctness and automatic reasoning. Introduction to algebraic structures in computing. Prerequisite: CS 250.
+Prerequisites:	CS 250.
+Goals:	CS 251 is the second term of the two term sequence CS 250-251. The main goal of the sequence is that students obtain those skills in discrete mathematics and logic that are used in the study and practice of computer science.
+Upon the successful completion of this course students will be able to:
+
+Apply the properties of propositional calculus to: determine whether a wff is a tautology, a contradiction, or a contingency by truth tables and by Quine's method; construct equivalence proofs; and transform truth functions and wffs into conjunctive or disjunctive normal form.
+Describe the basic inference rules and use them to write formal proofs in propositional calculus.
+Apply the properties of first-order predicate calculus to: determine whether a wff is valid, invalid, satisfiable, or unsatisfiable; construct equivalence proofs; and transform first-order wffs into prenex conjunctive or disjunctive normal form.
+Describe the rules of inference for quantifiers and use them along with the basic inference rules to write formal proofs in first-order predicate calculus.
+Write formal proofs in first-order predicate calculus with equality.
+Construct partial correctness proofs of simple imperative programs and construct termination proofs for simple loops.
+Transform first-order wffs into clausal form; and unify atoms from a set of clauses.
+Describe the resolution inference rule; use it to write formal proofs in first-order logic; and describe how resolution is used to execute a logic program.
+Transform simple English sentences into formal logic (propositional, first-order, or higher-order).
+Apply appropriate algebraic properties to: simplify Boolean expressions; simplify regular expressions; write recursive definitions for simple functions in terms of operations for abstract data types; write expressions to represent relations constructed in terms of operations for relational databases; and work with congruences.
+Textbooks:	Discrete Structures, Logic, and Computability, Second Edition,by James L. Hein. Jones and Bartlett, 2002.
+References:	Prolog Experiments in Discrete Mathematics, Logic, and Computability,by James L. Hein.pdf version.
+Major Topics:	
+Propositional logic: propositional calculus, normal forms, formal reasoning.
+First-order logic: first-order predicate calculus, equivalence, quantifier inference rules.
+Applied Logic: equality, program correctness, higher-order logic.
+Automatic Reasoning: clausal forms, unification, resolution.
+Algebraic Structures: Boolean algebra, abstract data types, relational algebra, congruences.
+Laboratory Exercises:	Several lab experiments are assigned (approximately one experiment per week) to reflect the classroom work. The experiments are similar in scope to homework exercises.
+ 
+
+CAC Category Credits	Core	Advanced
+Data Structures
+Algorithms
+Software Design
+Computer Architecture
+Programming Languages	0.3
+ 
+
+Oral and Written Communications:	Every student is required to submit 3 written reports (not including exams, tests, quizzes, or commented programs) of typically 10 pages in a lab notebook.
+Social and Ethical Issues:	None
+Theoretical Content:	The entire course is theoretical material (logic).
+Problem Analysis:	The course is devoted to problem solving techniques of logic. The exercises and tests require problem analysis to find out which tools of formal logic are needed to solve a problem.
+Solution Design:	The course is devoted to problem solving techniques of logic. The exercises and tests require students to solve problems by applying the tools of formal logic.

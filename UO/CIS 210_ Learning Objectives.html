@@ -1,0 +1,274 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<!-- saved from url=(0056)https://classes.cs.uoregon.edu/17W/cis210/objectives.php -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!-- This is for the <head> section of CIS210 pages,
+     not for the page header in the <body> section. 
+   Include here metadata including css links, etc., 
+   but omit the <title> element which may be specific
+   to each page. 
+   Set $root before calling this.
+-->
+
+
+<meta name="description" content="CIS 210, Computer Science 1">
+<meta name="keywords" content="Computer science, CS1"> 
+<meta name="author" content="Michal Young"> 
+
+   <link rel="stylesheet" type="text/css" href="./CIS 210_ Learning Objectives_files/cis210.css" media="screen">
+   <link rel="stylesheet" type="text/css" href="./CIS 210_ Learning Objectives_files/cis210-print.css" media="print">
+
+<title>CIS 210: Learning Objectives</title></head>
+
+<body>
+<div class="container">
+
+  <!-- pagehead.php: Page header to include on each page -->
+
+<div class="pageheader">
+   <div class="title">
+   <h1>CIS 210 Winter 2017<br> Introduction to Computer Science</h1>
+   </div> <!-- title -->
+   </div> <!-- pageheader -->
+<!-- end pagehead.php -->
+  <!-- sidebar.php:  Sidebar to be replicated on each page 
+     Note links must be relative to site URL-->
+<div class="sidenav">
+   <h1>Main Menu</h1>
+   <ul>
+   <li><a href="https://classes.cs.uoregon.edu/17W/cis210/index.php">Class home page</a></li>
+   <!--
+   <li><a href="https://piazza.com/uoregon/fall2015/cis210/home">Piazza</a></li>
+   -->
+   <li><a href="https://classes.cs.uoregon.edu/17W/cis210/hints.php">How to Succeed</a></li>
+   <li><a href="https://classes.cs.uoregon.edu/17W/cis210/schedule.php">Schedule</a></li>
+   <li><a href="https://classes.cs.uoregon.edu/17W/cis210/assignments.php">Assignments</a></li>
+   <li><a href="https://classes.cs.uoregon.edu/17W/cis210/references.php">References</a></li>
+   <!--
+  <li><a href="/17W/cis210/exams.php" >Exams</a></li>
+  -->
+<!--
+  <li><a href="/17W/cis210/assignments/Contest.php" >Contest</a></li>
+-->
+   </ul>
+</div>
+
+<div class="content">
+
+
+<div class="item">
+  <h1>Learning Objectives</h1>
+  <p>The primary objective of this course is to introduce the basic
+  concepts and practices of computer science. The core ideas of
+  computer programming will be explored using the Python 
+  programming language. We will cover fundamental approaches to
+  problem solving and the creation of software solutions as well as
+  introduce basic computational concepts
+  </p>
+  <p>Computer science students will gain a foundation for further
+  study if computer science, including a more in-depth treatment of
+  object-oriented programming in CIS 211. Students in other majors
+  will find rich connections from computational concepts to many
+  fields. Learning to program is also an excellent way to build and
+  exercise problem solving skills and gain access to a powerful problem solving tool.
+  </p>
+</div>
+<div class="item">
+<h2>Understand ...</h2>
+  <h3>Sequential execution model</h3>
+  <p>Have a reasonably accurate, useful mental model of program
+  state, including local variables in the stack and references to
+  values in the heap. Understand the difference between a name, a variable, a
+  memory cell, and the value stored in a memory cell.  Understand how
+  two variables could refer to the same memory cell (aliasing), and
+  how two variables could have the same name (in different
+  scopes).</p>
+  <p>Understand program execution as a series of modifications to
+  program state. Be able to sketch the effect of simple program
+  statements, and to accurately predict the effect of a sequence of
+  program statements.</p>
+
+  <h3 class="sub">Demonstrated by .. </h3>
+  <ul>
+    <li>Construction of projects</li>
+    <li>Exam questions that require predicting the effect of
+    code.
+    </li>
+  </ul>
+  
+
+  <h3>Control Flow</h3>
+  <p>Operationally understand conditional control flow, including nested
+  conditionals, short-circuit evaluation, and sequential composition
+  of conditional statements.  Be able to accurately predict the
+  effect of program fragments including conditionals.</p>
+  <p>Operationally understand loops, including loops over
+  aggregate data structures (“for each X in S”), while
+  loops, and for loops.</p>
+  <p>Have a basic problem-solving vocabulary of loop patterns
+  involving aggregate data types, including summarizing (summing,
+  counting, etc.), filtering, and sequential search.  Be able to
+  choose an appropriate loop pattern to solve basic programming
+  problems. </p>
+  <p>Be able to design and implement control flow involving nested
+  loops and conditional execution.</p>
+  <p>Be able to design inductive (recursive) loops, explicitly identifying
+  base cases and progress cases, and reason about termination.  
+  <!--In
+  particular, understand binary search as a basic loop pattern, and be
+  able to design and implement a binary search and reason about its
+  correctness.--> </p>
+
+
+  <h3 class="sub">Demonstrated by .. </h3>
+  <ul>
+    <li>Construction of projects that require design of loops,
+        including binary search and non-trivial loops</li>
+    <li>Exam questions that require predicting the effect of
+	idiomatic loops, and composition of idiomatic and more
+	challenging loops. 
+    </li>
+  </ul>
+
+  <h3>Procedural Abstraction</h3>
+  <p>Have a reasonably accurate, useful mental model of the effects of
+  program call and return on program state.  Understand how a
+  procedure call creates a new activation record containing local
+  variables, how parameters are passed to procedures, and how
+  procedure return discards the activation record.</p>
+  <p>Understand parameter passing both from a programming perspective
+  (e.g., copying actuals into formals by position rather than name)
+  and at a more detailed operational level (e.g., how passing a
+  reference type by value has the effect of aliasing).  Be able to
+  accurately predict the effects of program sequences involving
+  procedure call and return.  Understand that modifications to the
+  heap persist beyond procedure return, while modifications to
+  procedure-local variables don't.</p>
+  <p>Understand the difference between local and global variables, and
+  be able to predict the effect of modifications to either.</p>
+  <p>Understand procedural abstraction as a design tactic to break
+   larger problems into brain-size chunks.  Understand that some
+   decompositions into procedures are better than others, and begin to
+  develop some skill in making good decomposition decisions.</p>
+  <p>Understand that procedures can call other procedures, and be able
+  to design programs with multiple levels of procedure calls.</p>
+
+  
+  <h3 class="sub">Demonstrated by .. </h3>
+  <ul>
+    <li>Completing projects that require breaking a complex problem down into
+  multiple functions.</li> 
+  <li>Exam questions that require predicting the effect of multiple
+  levels of function calls with arguments that may or may not
+  share references. 
+    </li>
+  </ul>
+  
+  
+  <h3>Testing and Debugging</h3>
+  <p>Understand that testing is part of programming, and can be
+  systematic rather than haphazard.  </p>
+  <p>Understand that debugging is part of programming, and can be
+  systematic rather than haphazard.</p>
+
+  <h3 class="sub">Demonstrated by .. </h3>
+  <ul>
+    <li>Completing projects of sufficient complexity that debugging will 
+    almost certainly be required during development. 
+    </li>
+  </ul>
+
+
+	<h3>Programming Style</h3>
+	<p>Understand that design is part of programming, and can be systematic rather than haphazard</p>
+	<p>Ability to design and write code that reflects awareness of standard design techniques, good programming style, Python style standards, and supports testing.</p>
+	
+	<h3 class="sub">Demonstrated by .. </h3>
+	<ul>
+	<li>Completing projects according to class design and programming style specifications.
+	</li>
+	</ul>
+
+  <h3>Representation and Interpretation</h3>
+  <p>Understand that the same memory representation (bit pattern) may
+  be interpreted in different ways.  Understand the notion
+  <em>type</em> as indicating the intended interpretation and
+  potential operations on a value in memory. Understand why the
+  string “1” is different from the integer 1 and from the
+  floating point value 1.0. </p>
+  <p>Understand the difference between numbers and computer representations of
+  numbers.  Understand that computer operations like addition and
+  division do not obey all the familiar mathematical properties of
+  real numbers, because they operate on computer representations
+  rather than actual numbers.</p>
+
+
+  <h3 class="sub">Demonstrated by .. </h3>
+  <ul>
+    <li>Exam questions that require predicting the effect of
+    code manipulating numbers, strings, and other objects.
+    </li>
+  </ul>
+
+
+
+  <h3>Computational Complexity</h3>
+  <p>Understand, at a basic level, how to reason about the
+  relation between the number of computational steps and problem
+  size (time and space). <!--Distinguish linear-time from quadratic algorithms, and
+  as a special case understand why binary search executes
+  logarithmic time.  We will not study asymptotic complexity in
+  depth, prepare detailed proofs of program complexity, or introduce
+  big-O notation, but we
+  will introduce and apply the basic concept of assessing complexity
+  and choosing algorithms that are more efficient than alternatives.--></p>
+
+
+  <h3 class="sub">Demonstrated by .. </h3>
+  <ul>
+    <li>Exam questions that require composing algorithms 
+        that executes within a given complexity bound (typically
+        linear time). 
+    </li>
+  </ul>
+  
+<!--
+  <h3>Object-oriented Programming</h3>
+  <p>Have a basic but accurate operational model of classes and
+  objects.</p>
+  <p>Understand the difference between a variable local to a method,
+  a field local to an object, and a class.</p>
+
+<h3 class="sub">Demonstrated by .. </h3>
+  <ul>
+    <li>Completing projects that require writing and using classes and
+  objects. </li> 
+  <li>Exam questions that require predicting the effect of a series of
+  method calls on multiple objects. 
+    </li>
+  </ul>
+-->
+  
+
+</div>
+
+</div> <!-- class content -->
+
+<!-- pagefoot.php: Page footing to include on each page -->
+<div class="clearer">  </div>
+   <div class="footer">
+
+   <span style="float: left">
+   Contact <a href="mailto:michal@cs.uoregon.edu?subject=CIS%20210%20web%20site">webmaster</a>.
+   </span>
+   <span style="float: right">  Based loosely on Transparentia design by Arcsin, from OSWD.org. </span>
+      &nbsp; <!-- Space to put the two floats above.  Setting text justification does not seem to do it. -->
+   </div>
+<!-- Track our traffic ?? -->
+<!-- End pagefoot.php -->
+
+</div> <!-- content content -->
+
+
+
+
+</body></html>
