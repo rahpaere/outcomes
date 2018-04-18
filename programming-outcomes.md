@@ -33,7 +33,7 @@ particular language or using particular tools.
 -   Read other people's code and get meaning from it.
 -   Recognize important pieces of documentation for quickly learning a new language or translating.
 
-### Justify trust in a program's correctness.
+### Justify trust in a program.
 
 -   Debug programs.
     -   Recognize common static errors from the compiler, including
@@ -104,7 +104,7 @@ particular language or using particular tools.
 -   Discuss memory as a resource.
 -   Assign appropriate scope and lifetime to each variable in a program.
 
-### Communicate input and output with a program's environment.
+### Connect a program with its environment.
 
 -   Access arguments and options provided when a program is run. *i.e.
     command-line arguments*

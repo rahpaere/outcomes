@@ -18,6 +18,7 @@ Data structures and algorithms outcomes (CS260)
 - Adapt an implementation to serve a different abstraction, such as a list presented as a stack.
 - Recognize implicit structure, such as a heap implicit in an array, and the distinction between a list and a sorted list.
 - Use nested data structures such as arrays of lists, dictionaries of sets of strings, and so forth.
+- *(references and aliasing)*
 
 ### Sequence *(list, vector, tuple, array, deque)*
 
@@ -34,9 +35,11 @@ Data structures and algorithms outcomes (CS260)
 - queue
 - priority queue
 
-### Matrix *(tensor, vector, array)*
+### Matrix *(tensor, vector, multidimensional array)*
 
-### Table *(dictionary, hash table, map, relation, associative array, database)*
+### Algebraic datatype *(record, struct, tuple, enum, union, object)*
+
+### Table *(dictionary, hash table, map, relation, associative array, database, function)*
 
 - apply key transformations (?)
 - hash functions, including strategies for avoiding and resolving collisions
@@ -97,9 +100,7 @@ Data structures and algorithms outcomes (CS260)
 ### Notes
 
 - *traversal, search, insertion, deletion, merge, etc. as appropriate*
-- *references and aliasing*
-- *records/structures/functions*
-- *multidimensional array*
 - *STL-style analysis of generic programming issues such as types of iterators, perhaps some type theory?*
 - *recent advances in data structures, such as cuckoo hashing, skip lists, timsort, etc.*
+- *shared datastructure concerns e.g. multithreading, distributed*
 - *esoteric data structures such as quadtrees, tries, etc.*
