@@ -1,29 +1,27 @@
-Programming outcomes (CS161–CS162)
-----------------------------------
+# Programming outcomes (CS161–CS162)
 
 The following outcomes are existentially quantified over language and
 tools; that is, if a student demonstrates this level of proficiency
 in any language using any set of tools, a school may accept that for
-awarding the ASOT-CS.  However, a school accepting the ASOT-CS for
+awarding the ASOT-CS, while a school accepting the ASOT-CS for
 transfer may require a student to demonstrate that proficiency in a
 particular language or using particular tools.
 
-### Write and execute a program.
+## Write and execute a program.
 
--   Use tools such as compiler, interpreter, text editor, debugger, version control, filesystem, build system, profiler, and IDE.
+-   Write a program using tools such as an editor and version control system.
+-   Execute a program using tools such as an interpreter, compiler or build system, and console.
+-   Decompose a program into modules at a source file level. Organize source files in a filesystem, using any relevant language features (e.g. including headers or importing modules) and build systems (e.g. separate compilation, library linking, or make).
 -   Write and execute some trivial program, such as hello world, from
     scratch by memory. *there is some question of what trivial means and
     at what level it is memorized, i.e. syntactic vs being able to
     reconstruct from principles*
--   Decompose a program into modules at a source file level, using
-    separate compilation. *separate compilation is a C term, but this should
-    really include other forms of file-level inclusion/modularity*
 -   Recognize important tools and language features for quickly
     learning a new language or translating.
 
-### Discuss computing problems among humans.
+## Discuss computing problems among humans.
 
--   Use language reference documentation, tutorials, fora, IRC, mailing lists, user groups, conferences, etc.
+-   Use language reference documentation, tutorials, style guides, fora, IRC, mailing lists, user groups, conferences, etc.
 -   Value consistent programming style.
 -   Consistently use a personal programming style.
 -   Adapt programming style to a group project.
@@ -33,11 +31,12 @@ particular language or using particular tools.
 -   Read other people's code and get meaning from it.
 -   Recognize important pieces of documentation for quickly learning a new language or translating.
 
-### Justify trust in a program.
+## Justify trust in a program.
 
 -   Debug programs.
-    -   Recognize common static errors from the compiler, including
-        syntax errors, and recall common solutions.
+    -   Use static analysis tools, such as compilers and linters.
+    -   Recognize common static errors, including syntax errors, and recall common solutions.
+    -   Use dynamic analysis tools, such as interactive debuggers and profilers.
     -   Simulate a program's steps mentally or in writing to peform
         snapshot analysis and predict behavior.
     -   Run a program under a debugger to observe computations and
@@ -61,17 +60,16 @@ particular language or using particular tools.
         exceptional conditions, such as a file not existing.
     -   Detect and handle exceptional conditions within a program. *by
         return type, exceptions, etc*
+-   Use formal reasoning to create code that is correct by construction, or to verify aspects of existing code.
 -   Modify a program's source to add or subtract features, modify it to
-    work in another environment, etc. *maintenance* *does this belong in justification?*
+    work in another environment, etc. *i.e., maintenance; does this belong in justification?*
 -   Justify the way a program is decomposed, by analyzing an existing
     set of modules to describe its benefits and drawbacks, by arguing for
     why a decomposition was designed the way it was, and by improving a
     decomposition when warranted. *describe some strategies, such as separation
     of concerns, Parnas, tussle, etc*
 
-*formal reasoning seems to be missing*
-
-### Represent a real-world problem domain within a program.
+## Represent a real-world problem domain within a program.
 
 -   Distinguish a value, a location that stores a value, and an
     identifier that names a location or value.
@@ -104,7 +102,7 @@ particular language or using particular tools.
 -   Discuss memory as a resource.
 -   Assign appropriate scope and lifetime to each variable in a program.
 
-### Connect a program with its environment.
+## Connect a program with its environment.
 
 -   Access arguments and options provided when a program is run. *i.e.
     command-line arguments*
@@ -123,22 +121,22 @@ the program through a DOM. Read and write messages over a network
 protocol. Share information with other programs through an IPC
 mechanism. Provide a GUI.*
 
-### Apply structured programming principles.
+## Apply structured programming principles.
 
 -   Decompose a program into blocks of sequential code, functions,
     and procedures.
     -   Identify entrances to and exits from a procedure or block.
-    -   Return values from a function.
     -   Pass arguments into a function or procedure.
+    -   Return values from a function.
     -   Discuss the difference between calling conventions, including
         call-by-value and call-by-reference.
     -   Recognize recursive functions and compare recursion
-        to iteration.
+        with iteration.
 -   Distinguish statements from expressions.
 -   Recall the statements built into the language.
 -   Use conditional/selection statements, such as if/then, if/then/else,
     switch/select/case, and pattern matching.
-    -   Nest conditional statements, and when possible un-nest them by
+    -   Nest conditional statements, and flatten nested conditionals by
         manipulating their conditions.
 -   Use iteration/repetition/looping statements, such as while, for,
     do/while, and foreach.
@@ -162,7 +160,7 @@ mechanism. Provide a GUI.*
     -   Determine from a loop's source what its initial condition and
         invariant are.
 
-### Apply object-oriented programming principles.
+## Apply object-oriented programming principles.
 
 -   Decompose a program into a class hierarchy and interacting objects.
     -   Implement constructors and destructors.
