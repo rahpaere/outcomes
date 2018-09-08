@@ -108,6 +108,7 @@
 - *STL-style analysis of generic programming issues such as types of iterators, perhaps some type theory?*
 - *recent advances in data structures, such as cuckoo hashing, skip lists, timsort, etc.*
 - *shared datastructure concerns e.g. multithreading, distributed*
+- *do mention distributed computing, but emphasize security as a general topic more highly*
 - *esoteric data structures such as quadtrees, tries, etc.*
 
 ## Move to programming?
@@ -115,7 +116,7 @@
 ### Organize textual data or strings over arbitrary alphabets. *(string, text)*
 
 - strings and string processing
-- pattern matching and string/text algorithms (eg substring matching, regular expression matching, longest common subsequence, edit distance)
+- pattern matching and string/text algorithms (eg substring matching, regular expression matching, longest common subsequence, sequence alignment, edit distance)
 
 ## Implement common numerical algorithms.
 
