@@ -18,8 +18,6 @@
 
 - We need to make sure we're setting the right expectations, early enough, about the correct use of Unicode strings, and about internationalization and localization generally.
 
-- The coverage of object-oriented programming and generic programming in the programming outcomes needs to be expanded.
-
 - The computational thinking section is rudimentarily sorted but neither in prose nor complete.
 
 - We can and should distinguish three levels/kinds of skill at doing X:
