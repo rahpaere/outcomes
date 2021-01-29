@@ -17,12 +17,13 @@
 - Distinguish attackers by ethical categories as in the Byzantine/Altruistic/Rational model.
 - Incorporate contributions by members of marginalized communities.
 
-## Craft specifications that define program correctness.
+## Reason about specifications of program correctness.
 
-- Create specifications that thoughtfully reflect consideration of the purpose of a program.
+- Write specifications that reflect consideration of the purpose of a program.
 - Discuss the intended utility of a program to humans.
 - Predict ethical considerations of a program in use.
 - Distinguish between correct and dependable code and systems.
+- Given a specification, estimate the time and effort you would need to spend on implementing a solution.
 
 ## Reason about a program and its possible executions.
 
@@ -71,4 +72,4 @@
 - Use an issue tracker to maintain software over time.
 - Use best practices for reproducible bug reports.
 - Connect configuration management, automated testing, automated building, and version control to manage large-scale software and work in teams.
-- Conduct usability and user experience testing.
+- Test user experience and adapt to feedback.

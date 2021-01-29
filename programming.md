@@ -7,20 +7,21 @@ The following outcomes are existentially quantified over language and tools; tha
 - Write a program using tools such as editor and version control system.
 - Execute a program using tools such as interpreter, compiler, and build system.
 - Decompose a program into modules at a source file level. Organize source files in a filesystem, using any relevant language features (e.g. including headers or importing modules) and build systems (e.g. separate compilation, library linking, or make).
-- Write and execute some introductory program, such as hello world, from experience, without external references.
-- Recognize important tools and language features for quickly learning a new language or translating.
-- Distinguish being able to write code to do a task from using language/library features for the task fluently, and be able to choose and justify the choice.  Know how those provided features are implemented as far as necessary to understand implications of the choice.
-- Given a specification, estimate the time and effort you would need to spend on implementing a solution.
+- Write and execute some introductory program (such as hello world) from experience, without external references.
+
+## Adapt to a new programming environment.
+
+- Adapt to the style guidelines of an existing codebase.
+- Recognize analogies between programming environments, in a way that makes it easier to move between contexts (courses, employers, projects, etc.) that use different languages, platforms, and tools.
 
 ## Discuss computing problems among humans.
 
 - Use language reference documentation, tutorials, style guides, fora, IRC, mailing lists, user groups, conferences, etc.
-- Value consistent programming style.
-- Consistently use a personal programming style.
-- Adapt programming style to a group project.
-- Explain requirements, design decisions, and coding decisions, using source code (variable names, conventions, etc.), programming comments, documentation, and in conversation with people.
-- Read other people's code and get meaning from it.
-- Recognize important pieces of documentation for quickly learning a new language or translating.
+- Value consistent programming style and use a consistent personal style.
+- Explain requirements, design decisions, and coding decisions, through the media of source code (variable names, conventions, etc.), programming comments, and documentation.
+- Discuss source code with other humans, such as during code review or pair programming.
+- Read existing code and explain what it does and how.
+- Collaborate with other students, and learn from example code, in a way that avoids plagiarism.
 
 ## Reason about values in a program.
 
@@ -44,12 +45,13 @@ The following outcomes are existentially quantified over language and tools; tha
   - Interpolate between values.
   - *draw numeric operations from C standard library, IEEE floating point, Gnu Scientific Library, Gnu MultiPrecision library, R, Matlab, Mathematica*
   - Handle idiosyncracies such as wraparound, IEEE floating point comparisons, NaN, etc.
-- Use the algebraic sum and product datatypes provided by the language, such as record, struct, tuple, named tuple, enum, union, object's attributes, optional/maybe.
-- Organize and operate on textual data (i.e. strings).  Handle issues of text encoding, character sets generally, Unicode.
+- Use the algebraic product datatypes provided by the language, such as record, struct, tuple, named tuple, object attributes, etc.
+- Use the algebraic sum datatypes provided by the language, such as enum, union, optional/maybe, etc.
+- Use the datatypes provided by the language for representing and manipulating written text (i.e. strings).
+- Handle issues of text encoding, character sets generally, Unicode, internationalization and localization.
 - Use the sequential data structures provided by the language.
 - Use the mapping data structures provided by the language, including maps/dictionaries and records/structures/named tuples/objects.
-- Organize data in linked data structures, such as a linked list. *Where is the division between programming and DSA?*
-- Store references to data, such as with a pointer whose value represents another identifier, or a reference that is an alias for another identifier.  Reason about aliasing.
+- Use references to data, such as with a pointer whose value represents the location of the data, or a reference which may be an alias for another identifier for the data. Reason about aliasing.
 
 ## Connect a program with its environment.
 
@@ -82,6 +84,7 @@ The following outcomes are existentially quantified over language and tools; tha
   - Structure a loop-and-a-half to handle complex stepping, or to poll user input with validation.
   - Identify and verify loop invariants.
   - Rewrite loops using loop fission/fusion, unrolling, permutation, etc.
+  - Nested loop patterns, e.g. to walk matrices in various shapes and directions.
 
 ## Apply object-oriented programming principles.
 

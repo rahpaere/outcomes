@@ -1,7 +1,7 @@
 # Architecture
 
 - Distinguish computer organization from systems programming, where
-  architecture is the interface.
+  architecture is the interface (Fred Brooks coinage details).
 - Introduction to computer systems from a software perspective. Topics
   include: Basic machine organization, System programming using C and
   assembly language, Introduction to system programming tools (gcc,
@@ -15,8 +15,13 @@
   computers. Coverage of assembly language; addressing, stacks, argument
   passing, arithmetic operations, decisions, macros, modularization,
   linkers and debuggers.
+- Discuss how hardware and software serve each other, e.g. Forth
+  machine, Lisp machine, Java machine, GPU, C as assembly.
+- Represent systems using control flow graphs (a.k.a. flow charts) and
+  dataflow graphs (e.g. logic circuit diagrams), and compare the two
+  notations.
 
-### Digital Logic
+## Digital Logic
 
 - Create and simplify circuits that produce specified output for given inputs
   (e.g., adders, multiplexers, etc.). ()
@@ -25,12 +30,13 @@
 
 - Do arithmetic in hexadecimal, decimal, octal, and binary notation, and
   convert among these notations.
-- Explain how data types such as integers, characters, floating point numbers,
+- Explain how data types such as integers, characters (including
+  Unicode and multibyte and variable-width encodings), floating point numbers,
   arrays, pointers, and structures are represented.
 - Simulate the internal representation of data, and show how data is stored
   and accessed in memory (Level 3; ABET Outcome A).
 
-### Discuss the organization of a computer's functional components.
+## Discuss the organization of a computer's functional components.
 
 - Identify the major components of CISC and RISC architectures, and explain
   their purposes and interactions. (Level 1; ABET Outcome i)	
@@ -45,7 +51,7 @@
 - Explain the performance impact of hardware features such as pipelining, and
   architecture principles such as memory locality.
 
-### Write programs using a knowledge of assembly language.
+## Write programs using a knowledge of assembly language.
 
 - Explain the differences among high-level, assembly, and machine
   languages (Level 1; ABET Outcomes a, i).
@@ -68,7 +74,7 @@
   libraries, as well as how basic system utilities such as debuggers and
   Makefiles work.
 
-### Do systems programming.
+## Do systems programming.
 
 - Write C programs to illustrate basic systems programming concepts,
   including file I/O, system calls, memory management, exception handling and
@@ -76,6 +82,6 @@
 - Explain how exceptions, traps, and context switches occur and how they are
   handled at the machine level.
 
-### Performance and Optimization
+## Performance and Optimization
 
 - Understand and identify performance bottlenecks in C programs.
