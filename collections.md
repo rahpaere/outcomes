@@ -67,7 +67,7 @@
 - Compute inner and outer products of matrices.
 - *(BLAS skills and operations belong here)*
 
-## Organize items (into a table, dictionary, map, multimap, relation, associative array, database, function, file, index, etc.) to facilitate searching...
+## Organize items (into a table, dictionary, map, multimap, relation, associative array, database, function, file, index, roster, etc.) to facilitate searching...
 
 ### ...using hash functions.
 
